@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzeriChatApp", "AzeriChatApp\AzeriChatApp.csproj", "{FCA28ACC-53E6-4FCF-8D45-E3FFB6CEFD87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCA28ACC-53E6-4FCF-8D45-E3FFB6CEFD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA28ACC-53E6-4FCF-8D45-E3FFB6CEFD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA28ACC-53E6-4FCF-8D45-E3FFB6CEFD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA28ACC-53E6-4FCF-8D45-E3FFB6CEFD87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06E24CCD-EDDF-437C-8F09-53345BFE1F77}
+	EndGlobalSection
+EndGlobal
