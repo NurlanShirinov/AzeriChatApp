@@ -5,10 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AzeriChatApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="400" WindowStyle="None" Background="Transparent" AllowsTransparency="True">
-    <Border BorderThickness="5" CornerRadius="50" Background="White">
-        <Grid>
-
+        Title="MainWindow" Height="650" Width="400" WindowStyle="None" Background="Transparent" AllowsTransparency="True" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Border BorderThickness="3" CornerRadius="20" Background="White" BorderBrush="Transparent">
+        <Grid Height="630" Width="380">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="3*"></ColumnDefinition>
@@ -44,10 +43,10 @@
                                Height="50"
                                Margin="20"
                                StrokeThickness="2">
-                            <Ellipse.Fill>
-                                <ImageBrush ImageSource="Icons/notification.png"></ImageBrush>
-                            </Ellipse.Fill>
-                        </Ellipse>
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="Icons/notification.png"></ImageBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
 
                     <Ellipse Width="50"
                                Height="50"
@@ -106,6 +105,20 @@
                             <ImageBrush ImageSource="Icons/call3.png"></ImageBrush>
                         </Ellipse.Fill>
                     </Ellipse>
+                </Canvas>
+            </Grid>
+
+            <Grid Grid.Column="1" Grid.Row="1">
+                <Canvas>
+                    <Border CornerRadius="10" BorderThickness="2" BorderBrush="Black" Canvas.Bottom="20" Margin="5,2">
+                        <TextBox
+                            FontFamily="TimesNewRoman"
+                            FontSize="15"
+                             Width="205"
+                             Height="35">
+                        </TextBox>
+                    </Border>
+                   
                 </Canvas>
             </Grid>
         </Grid>
