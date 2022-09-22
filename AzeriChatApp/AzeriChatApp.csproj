@@ -124,5 +124,8 @@
   <ItemGroup>
     <Resource Include="Icons\send2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\senBtn.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

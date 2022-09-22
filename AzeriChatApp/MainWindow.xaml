@@ -118,7 +118,16 @@
                              Height="35">
                         </TextBox>
                     </Border>
-                   
+                    <Button Canvas.Bottom="30"
+                            Name="sendBtn"
+                            Canvas.Right="20"
+                            Width="40"
+                            Height="35"
+                            Background="Transparent"
+                            Style="{StaticResource RoundedButtonTemplate}"
+                            BorderBrush="#fff">
+                        <Image Source="Icons/senBtn.png"></Image>
+                    </Button>
                 </Canvas>
             </Grid>
         </Grid>
