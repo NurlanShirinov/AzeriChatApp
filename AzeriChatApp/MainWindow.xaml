@@ -109,13 +109,15 @@
             </Grid>
 
             <Grid Grid.Column="1" Grid.Row="1">
-                <Canvas>
+                <Canvas x:Name="chattingCanvas">
                     <Border CornerRadius="10" BorderThickness="2" BorderBrush="Black" Canvas.Bottom="20" Margin="5,2">
                         <TextBox
                             FontFamily="TimesNewRoman"
                             FontSize="15"
                              Width="205"
-                             Height="35">
+                             Height="35"
+                            BorderThickness="0"
+                            Name="mytxtb">
                         </TextBox>
                     </Border>
                     <Button Canvas.Bottom="30"
@@ -125,9 +127,18 @@
                             Height="35"
                             Background="Transparent"
                             Style="{StaticResource RoundedButtonTemplate}"
-                            BorderBrush="#fff">
+                            BorderBrush="#fff"
+                            Click="sendBtn_Click">
                         <Image Source="Icons/senBtn.png"></Image>
                     </Button>
+
+                    <TextBlock Name="mymessage"
+                               Width="170"
+                               Height="25"
+                               Canvas.Top="6"
+                               Canvas.Right="15"
+                               >
+                    </TextBlock>
                 </Canvas>
             </Grid>
         </Grid>
